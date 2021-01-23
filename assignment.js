@@ -1,5 +1,5 @@
 
-//Problem - 01 . Kilometer To Meter 
+//Problem - 01 . Kilometer To Meter Problem Solving
 
 function kilometerToMeter(kilometer){
     var meter=kilometer * 1000;
@@ -8,7 +8,7 @@ function kilometerToMeter(kilometer){
 var outputMeter=kilometerToMeter(5);
 console.log(outputMeter);
 
-//Problem - 02 . Budget Calculator
+//Problem - 02 . Budget Calculator Problem Solving
 
 function budgetCalculator(watch,phone,laptop){
     var totalWatchPrice = watch*50;
@@ -20,7 +20,7 @@ function budgetCalculator(watch,phone,laptop){
 var outputTotalCost=budgetCalculator(12,22,8);
 console.log(outputTotalCost);
 
-//Problem - 03 . Hotel Cost
+//Problem - 03 . Hotel Cost Problem Solving
 
 function hotelCost(numberOfDays){
     var money=0;
@@ -42,5 +42,24 @@ function hotelCost(numberOfDays){
     }
     return money;
 }
-var countDays=hotelCost(44);
-console.log(countDays);
+var totalDays=hotelCost(44);
+console.log(totalDays);
+
+//Problem - 04 . Mega Friend Problem Solving
+
+function megaFriend(friendsNames){
+    var lgth = 0;
+    var longest;
+    for (var i = 0; i < friendsNames.length; i++) {
+        if (friendsNames[i].length > lgth) {
+          var lgth = friendsNames[i].length;
+          longest = friendsNames[i];
+        }
+      }
+      return longest;
+
+}
+
+var friendsNames=["Tamal Biswas","Tanmoy Nath","Pranto Shikder Saha","Rahul Saha","Hridoy Saha"];
+var longestFriendName= megaFriend(friendsNames);
+console.log(longestFriendName);
