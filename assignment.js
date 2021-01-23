@@ -1,3 +1,5 @@
+// https://github.com/biswas20/assignment.js
+
 
 //Problem - 01 . Kilometer To Meter Problem Solving
 
@@ -60,6 +62,6 @@ function megaFriend(friendsNames){
 
 }
 
-var friendsNames=["Tamal Biswas","Tanmoy Nath","Pranto Shikder Saha","Rahul Saha","Hridoy Saha"];
+var friendsNames=["Tamal Biswas","Tanmoy Nath","Pranto Shikder Saha","Rahul Saha","Hridoy Kor"];
 var longestFriendName= megaFriend(friendsNames);
 console.log(longestFriendName);
